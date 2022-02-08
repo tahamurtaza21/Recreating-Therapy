@@ -8,10 +8,17 @@ public class DialoguePlay : MonoBehaviour
     public NPCConversation[] backGroundConversation;
 
     private int ConversationNumber = 0;
+
+    [SerializeField] Color32 DialogueBoxColor;
+    [SerializeField] Color32 DialogueTextColor;
+    [SerializeField] Color32 PanelBoxColor;
+    [SerializeField] Color32 PanelTextColor;
+
     private void OnTriggerEnter2D(Collider2D other) 
     {
         ConversationManager.Instance.StartConversation(backGroundConversation[ConversationNumber]);
         ConversationNumber += 1;
+        Debug.Log(ConversationNumber);
         Destroy(other.gameObject);    
         ChangeColor();
     }
@@ -20,8 +27,9 @@ public class DialoguePlay : MonoBehaviour
     {
         if(ConversationNumber > 2)
         {
-            ConversationManager.Instance.DialogueText.color = Color.cyan;
-            ConversationManager.Instance.DialogueBackground.color = Color.green; 
+            Debug.Log("Change Color");
+            ConversationManager.Instance.DialogueText.color = DialogueTextColor;
+            ConversationManager.Instance.DialogueBackground.color = DialogueBoxColor;
         }
     }
 }
