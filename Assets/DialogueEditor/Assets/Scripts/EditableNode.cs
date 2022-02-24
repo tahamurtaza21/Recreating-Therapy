@@ -291,7 +291,6 @@ namespace DialogueEditor
 
             conversation.GetNodeData(this.ID).Audio = this.Audio;
             conversation.GetNodeData(this.ID).Icon = this.Icon;
-            
         }
 
         public override void DeserializeAssetData(NPCConversation conversation)

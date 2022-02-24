@@ -70,8 +70,6 @@ namespace DialogueEditor
         public AudioClip Audio;
         public float Volume;
 
-        public Color32 Color32;
-
         /// <summary> UnityEvent, to betriggered when this Node starts. </summary>
         public UnityEngine.Events.UnityEvent Event;
     }

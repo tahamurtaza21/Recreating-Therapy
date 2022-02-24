@@ -6,20 +6,18 @@ using DialogueEditor;
 public class DialoguePlay : MonoBehaviour
 {
     public NPCConversation[] backGroundConversation;
-
     private int ConversationNumber = 0;
 
     [SerializeField] Color32 DialogueBoxColor;
     [SerializeField] Color32 DialogueTextColor;
-    [SerializeField] Color32 PanelBoxColor;
-    [SerializeField] Color32 PanelTextColor;
+    //public Rain RainController;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
         ConversationManager.Instance.StartConversation(backGroundConversation[ConversationNumber]);
         ConversationNumber += 1;
         Debug.Log(ConversationNumber);
-        Destroy(other.gameObject);    
+        Destroy(other.gameObject, 20);    
         ChangeColor();
     }
 
