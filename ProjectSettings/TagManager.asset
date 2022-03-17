@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Therapist
   layers:
   - Default
   - TransparentFX
@@ -11,10 +12,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Platform
+  - Player
+  - Rocks
+  - Climb
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Platform
+    uniqueID: 1886863295
+    locked: 0
+  - name: Player
+    uniqueID: 3639631809
+    locked: 0
+  - name: Water
+    uniqueID: 2319329859
+    locked: 0
+  - name: Rocks
+    uniqueID: 4143578571
     locked: 0
