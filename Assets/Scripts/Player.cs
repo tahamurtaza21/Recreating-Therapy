@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject Umbrella;
     [SerializeField] GameObject UmbrellaSprite;
 
+    void Awake() 
+    {
+        UmbrellaSprite.SetActive(false);    
+    }
+
     void Start() 
     {
         playerAnimator = gameObject.GetComponent<Animator>();
@@ -45,6 +50,7 @@ public class Player : MonoBehaviour
 
     void OnUmbrellaPress()
     {
+        UmbrellaSprite.SetActive(false);
         if(mydialoguePlay.atTherapist == true)
         {
             Umbrella.SetActive(true);

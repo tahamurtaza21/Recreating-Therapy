@@ -25,7 +25,7 @@ public class Umbrella : MonoBehaviour
 
     void Update()
     {
-        RotateUmbrella();
+        //RotateUmbrella();
     }
 
     /* void RotateUmbrella()
