@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Therapist
+  - Final
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Platform
   - Player
   - Rocks
-  - Climb
+  - Climbing
   - 
   - 
   - 
@@ -53,4 +54,7 @@ TagManager:
     locked: 0
   - name: Rocks
     uniqueID: 4143578571
+    locked: 0
+  - name: Climb
+    uniqueID: 3246264935
     locked: 0

@@ -15,11 +15,11 @@ E:/Unity Projects/Thesis Project/Thesis Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56672
+54793
 Successfully changed project path to: E:/Unity Projects/Thesis Project/Thesis Project
 E:/Unity Projects/Thesis Project/Thesis Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 211.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 312.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path F:/Unity Editors/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,19 +36,2483 @@ Initialize mono
 Mono path[0] = 'F:/Unity Editors/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001775 seconds.
+Registered in 0.003012 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 200.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 325.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 24.437 seconds
+- Completed reload, in  6.467 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005757 seconds.
+Registered in 0.008285 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 319.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.775 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.5 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4627.
+Total: 9.857000 ms (FindLiveObjects: 1.138100 ms CreateObjectMapping: 0.917100 ms MarkObjects: 7.329300 ms  DeleteObjects: 0.468900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Start Game.unity
+  artifactKey: Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Game.unity using Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d78d26b67f1e573c3a993495705438') in 0.040148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 309.671382 seconds.
+  path: Assets/Scripts/Scene Management.cs
+  artifactKey: Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene Management.cs using Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd335e0a9874c7804c2754db2af8a1d59') in 0.097843 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.694 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4633.
+Total: 9.230700 ms (FindLiveObjects: 0.973900 ms CreateObjectMapping: 0.767700 ms MarkObjects: 7.279100 ms  DeleteObjects: 0.207500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.099 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.3 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4637.
+Total: 7.693000 ms (FindLiveObjects: 1.195500 ms CreateObjectMapping: 0.792300 ms MarkObjects: 5.558300 ms  DeleteObjects: 0.144600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 972.713489 seconds.
+  path: Assets/Scripts/Scene Management.cs
+  artifactKey: Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene Management.cs using Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee426b291f5de6bf116003bf1dd8df32') in 0.018390 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.165 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.3 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4641.
+Total: 11.803300 ms (FindLiveObjects: 1.198800 ms CreateObjectMapping: 1.160100 ms MarkObjects: 9.096700 ms  DeleteObjects: 0.343900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.528301 seconds.
+  path: Assets/Scripts/SceneControl.cs
+  artifactKey: Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneControl.cs using Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddc6b5df4ff9060d793c5aff44d50c8') in 0.013591 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.081 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4645.
+Total: 9.745700 ms (FindLiveObjects: 0.824500 ms CreateObjectMapping: 0.587900 ms MarkObjects: 8.120500 ms  DeleteObjects: 0.210300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.530711 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_0.asset
+  artifactKey: Guid(03dd6aaf8f706b14881bf7d91f53c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_0.asset using Guid(03dd6aaf8f706b14881bf7d91f53c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e699510d86387cd0d41463cdca8a958') in 0.074813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_1.asset
+  artifactKey: Guid(23cb08969f9a79146a55222fd040651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_1.asset using Guid(23cb08969f9a79146a55222fd040651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163bea6b177308affc17a61c749ae54f') in 0.019353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_7.asset
+  artifactKey: Guid(3bb0b4ce7197c0e40a6bf104627c2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_7.asset using Guid(3bb0b4ce7197c0e40a6bf104627c2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd729bb23b455827645b98caf78db4e3') in 0.021404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_10.asset
+  artifactKey: Guid(0d10500e9abb1d844825e66cc3c79af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_10.asset using Guid(0d10500e9abb1d844825e66cc3c79af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d222f875b163b96102560f1bd68623') in 0.013316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_11.asset
+  artifactKey: Guid(3980ec03276953e4384c80897b84c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_11.asset using Guid(3980ec03276953e4384c80897b84c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f01ad6ec25de1df42121859840bb94') in 0.024890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_19.asset
+  artifactKey: Guid(2f54ef3a4c7ab4645a55881ef335f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_19.asset using Guid(2f54ef3a4c7ab4645a55881ef335f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab50bf3b344d9dc81c15c5191772c962') in 0.008392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_28.asset
+  artifactKey: Guid(78b7dd461ccd61546a1a7cae73550edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_28.asset using Guid(78b7dd461ccd61546a1a7cae73550edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a02b176a09ba5206ccb6678e19b245') in 0.024513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_27.asset
+  artifactKey: Guid(d3120ded9ff8de543be5703f87119b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_27.asset using Guid(d3120ded9ff8de543be5703f87119b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d61a0f4702db9acdcc0d4f2002a87f') in 0.005520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_25.asset
+  artifactKey: Guid(bc97a54ed0a855f4586288687b53eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_25.asset using Guid(bc97a54ed0a855f4586288687b53eada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56df526337effa6228a763624d084c90') in 0.007853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_45.asset
+  artifactKey: Guid(e1bb176c907953541a666a8b9958adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_45.asset using Guid(e1bb176c907953541a666a8b9958adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103c2128054a954be1011026bcff28a1') in 0.019893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_13.asset
+  artifactKey: Guid(b315e9df0dda61743b8f612d6fa41d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_13.asset using Guid(b315e9df0dda61743b8f612d6fa41d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4c7b3ce8358eaebe3582f7dea008df') in 0.008531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_64.asset
+  artifactKey: Guid(100073d54f77a6b4494aba08644059a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_64.asset using Guid(100073d54f77a6b4494aba08644059a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc78b90889b4405daab18a19ba7a38df') in 0.007762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_16.asset
+  artifactKey: Guid(bd4f822e0af491b47adce4dd1446173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_16.asset using Guid(bd4f822e0af491b47adce4dd1446173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68887f6c478e9ee131ed96c544c68fd') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_18.asset
+  artifactKey: Guid(e3bcc63de604ec34ebf0a175bcae84b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_18.asset using Guid(e3bcc63de604ec34ebf0a175bcae84b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a9a67cfa2d00f9b1a36b190d3db070') in 0.008512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_46.asset
+  artifactKey: Guid(87181a2573bd8ed47a25018a90d951a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_46.asset using Guid(87181a2573bd8ed47a25018a90d951a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb66276cf90a5132a692288ff69fe839') in 0.009292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_8.asset
+  artifactKey: Guid(381d584a1c8e59d4db458c3ae1890ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_8.asset using Guid(381d584a1c8e59d4db458c3ae1890ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71440d174d466e03a2faf96828ab5bd') in 0.008263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_50.asset
+  artifactKey: Guid(24c37b95c41d35c46a674e07360b19ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_50.asset using Guid(24c37b95c41d35c46a674e07360b19ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd0bbb3b048454bdb089b5427f80f1b') in 0.008143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_22.asset
+  artifactKey: Guid(6f103c1ce6e9d3b419b00bf58b2d1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_22.asset using Guid(6f103c1ce6e9d3b419b00bf58b2d1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662f065c97a44841ed06b3f0bde46ebe') in 0.008294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_15.asset
+  artifactKey: Guid(8f84290733ab2a24d9468050cb3bd0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_15.asset using Guid(8f84290733ab2a24d9468050cb3bd0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a093d0b216fd2d4598bda1b97b06527') in 0.010268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_39.asset
+  artifactKey: Guid(3836c1ed28d74a440ab67b8410238ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_39.asset using Guid(3836c1ed28d74a440ab67b8410238ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0f14cb83cc83e0138e6282471d05ff') in 0.008063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_49.asset
+  artifactKey: Guid(ca172a9d941010c40bd5108ff2d57e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_49.asset using Guid(ca172a9d941010c40bd5108ff2d57e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59573f0fcf026d70b4a5db75636a4016') in 0.008400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_62.asset
+  artifactKey: Guid(5f94008bdc3ef9a45a959138341552bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_62.asset using Guid(5f94008bdc3ef9a45a959138341552bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8851cbf89a6f3852b9c47d2f9dbf8f0b') in 0.008169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_47.asset
+  artifactKey: Guid(a1b077e36499de84b92741215549b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_47.asset using Guid(a1b077e36499de84b92741215549b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01463b743166e2678ba6ee5ddcbbac08') in 0.010264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_60.asset
+  artifactKey: Guid(a7a70c64fa999064bb763e35ee74346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_60.asset using Guid(a7a70c64fa999064bb763e35ee74346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736435c6ddb16e9ba0e8dabd48ea5089') in 0.007994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_9.asset
+  artifactKey: Guid(583d557bc0094d848bbb983c4031245a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_9.asset using Guid(583d557bc0094d848bbb983c4031245a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b5ed2e575e87b64d19e19004cafa97') in 0.008527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_57.asset
+  artifactKey: Guid(d4e27358e96c04d4eb14b0a4a64a8abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_57.asset using Guid(d4e27358e96c04d4eb14b0a4a64a8abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211a5d773bc6072af4029478c958a5d5') in 0.009971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_63.asset
+  artifactKey: Guid(af274426e47a6104aa2861545d0ab78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_63.asset using Guid(af274426e47a6104aa2861545d0ab78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3f18870f931212c06276e284d6a909') in 0.008788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_24.asset
+  artifactKey: Guid(bf7bd049d9e4e2043add27241a86cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_24.asset using Guid(bf7bd049d9e4e2043add27241a86cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74298cae0b22d610db3fb372d86ef05') in 0.009020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_17.asset
+  artifactKey: Guid(7570086cfdf7c87469e425567e48a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_17.asset using Guid(7570086cfdf7c87469e425567e48a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1265436a38704372f9fea407ba9f59') in 0.008893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_48.asset
+  artifactKey: Guid(75f78255ce1daff4d8dbf6482239be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_48.asset using Guid(75f78255ce1daff4d8dbf6482239be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7a7508676071daa2a7b64f7c39bd79') in 0.007690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_2.asset
+  artifactKey: Guid(52b692920e0db2542af0b85ed718ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_2.asset using Guid(52b692920e0db2542af0b85ed718ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37c026af61f8d24d4179e0bb756e50') in 0.008678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_21.asset
+  artifactKey: Guid(aac939819892b83439a48e86182eced8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_21.asset using Guid(aac939819892b83439a48e86182eced8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e9c773e6ce30468e35a27a1985660') in 0.008349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_53.asset
+  artifactKey: Guid(24b392320b3e15048b003f441f03b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_53.asset using Guid(24b392320b3e15048b003f441f03b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b7bf357603094c76c4879193923775') in 0.010601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_4.asset
+  artifactKey: Guid(7cebf510add5ebe40b9e49e09cb63493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_4.asset using Guid(7cebf510add5ebe40b9e49e09cb63493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e623e6289b0bcb9fdacd5f1c6b7f23c') in 0.009425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_31.asset
+  artifactKey: Guid(32a5ede48c963b34db7e36cd4c9ba44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_31.asset using Guid(32a5ede48c963b34db7e36cd4c9ba44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b6413ea30fba70d5cc1f1aded371f6') in 0.007713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_36.asset
+  artifactKey: Guid(fce4926d2a634b64a9282fcae29452d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_36.asset using Guid(fce4926d2a634b64a9282fcae29452d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69c5e1741ca29865c099d4489fa5250') in 0.020831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_56.asset
+  artifactKey: Guid(5682b357ef1323d4a95256076c528844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_56.asset using Guid(5682b357ef1323d4a95256076c528844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f2696e82b5a4789492a15ff8272cc') in 0.008022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_34.asset
+  artifactKey: Guid(d04269ab11f520b4da9e8b252d88bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_34.asset using Guid(d04269ab11f520b4da9e8b252d88bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0245696fcde3ffd21c2af0bac355cd1') in 0.007731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_43.asset
+  artifactKey: Guid(41d20e6bd7d45f64a8fbd20e1fb80409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_43.asset using Guid(41d20e6bd7d45f64a8fbd20e1fb80409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c17abc16312c97408e89b4ed4b9a1bc') in 0.006860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_52.asset
+  artifactKey: Guid(6b081d0dcc3ee4d41b4555ce8036b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_52.asset using Guid(6b081d0dcc3ee4d41b4555ce8036b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfb1f3e31ed2be90058c979b380cee1') in 0.014147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_20.asset
+  artifactKey: Guid(316781b2c040d8c46948365d5a0d959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_20.asset using Guid(316781b2c040d8c46948365d5a0d959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27af1f053f695fa7801f3f546a7c658') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_32.asset
+  artifactKey: Guid(9709e34b644505c418d259cfbf9af517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_32.asset using Guid(9709e34b644505c418d259cfbf9af517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49802350da326dca8fe1b558a28b841b') in 0.010445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_35.asset
+  artifactKey: Guid(d1ad87d0aec19c443abb021e8f047bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_35.asset using Guid(d1ad87d0aec19c443abb021e8f047bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'face5dae7ce707d657cf24bdc204ce6f') in 0.008969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_6.asset
+  artifactKey: Guid(0472c07cb37f4054cb81e08135764c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_6.asset using Guid(0472c07cb37f4054cb81e08135764c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9800a46c30cc1a0dd8ae48392e47b1f') in 0.006453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_42.asset
+  artifactKey: Guid(8acb2ff0040feac4383d2625971d1a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_42.asset using Guid(8acb2ff0040feac4383d2625971d1a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c898cb0e85c12cb66bfb90ab6a6dccf') in 0.010116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_54.asset
+  artifactKey: Guid(f3f348c2dcf493f448a4fa9eea55f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_54.asset using Guid(f3f348c2dcf493f448a4fa9eea55f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1397e2736f8203067e8e53179100ccd') in 0.008582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_55.asset
+  artifactKey: Guid(e61214c8ae7b1e548a3cb779c26981b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_55.asset using Guid(e61214c8ae7b1e548a3cb779c26981b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1e2f10e293ca631718b8e42e8df9ee') in 0.007586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_58.asset
+  artifactKey: Guid(02bce2164eb829840b3c4c80ceadd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_58.asset using Guid(02bce2164eb829840b3c4c80ceadd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33ad988b42c848a149b62178f0206fa') in 0.024703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_59.asset
+  artifactKey: Guid(0915c787f6f9ff1488c1d678a08e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_59.asset using Guid(0915c787f6f9ff1488c1d678a08e2539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73de0b0fbb8dea7cde8464f2e1ee87f8') in 0.008500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_14.asset
+  artifactKey: Guid(536d70024c29d00498348fa08f2be13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_14.asset using Guid(536d70024c29d00498348fa08f2be13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56461b2e07eacfc81365b660a97376bc') in 0.008120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001292 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_33.asset
+  artifactKey: Guid(7df5d12232d54294098d2e07cac8add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_33.asset using Guid(7df5d12232d54294098d2e07cac8add0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bd6c74f865724c85b799947731a543') in 0.010410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001273 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_61.asset
+  artifactKey: Guid(cb8bd7ddaa4380e4b9c50600170f8ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_61.asset using Guid(cb8bd7ddaa4380e4b9c50600170f8ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788723730bfb00304f969c6f207ff1b0') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_26.asset
+  artifactKey: Guid(ec3954b38765f74458c164f2e3872ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_26.asset using Guid(ec3954b38765f74458c164f2e3872ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c90d27ac7f341f9fadc62a231349e3') in 0.008030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_51.asset
+  artifactKey: Guid(16c4a0dde3353154aa0e6510874913e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_51.asset using Guid(16c4a0dde3353154aa0e6510874913e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3af0ec152fb2556d53ea1ad1698462') in 0.009469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_23.asset
+  artifactKey: Guid(db4edafce30ce064fab975e68c1da29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_23.asset using Guid(db4edafce30ce064fab975e68c1da29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372d4b3780f5a8cea177ba6b93f2a47e') in 0.008985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_38.asset
+  artifactKey: Guid(e335e26ad2433f14bbb068e03e469c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_38.asset using Guid(e335e26ad2433f14bbb068e03e469c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee96b0fc887da1873b540cc6863424c9') in 0.008820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_40.asset
+  artifactKey: Guid(7c55a27831b216148ae85827a3b72295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_40.asset using Guid(7c55a27831b216148ae85827a3b72295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad51cfd8daf2b33c3c0978ba5955b94e') in 0.008485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_3.asset
+  artifactKey: Guid(d2c68566950e50245983568c6cc04b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_3.asset using Guid(d2c68566950e50245983568c6cc04b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1e96970c7298d4aa94ab7ff7355bcf') in 0.008684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_5.asset
+  artifactKey: Guid(10ade360f533af044a6dfd355b074ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_5.asset using Guid(10ade360f533af044a6dfd355b074ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eae65d9cc0787e9d027c2c7352498ee') in 0.008280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_29.asset
+  artifactKey: Guid(6cadb35dde07dc2459fed3c7f7d40e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_29.asset using Guid(6cadb35dde07dc2459fed3c7f7d40e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c920479f69d3d5e3db7c5d388d7996') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_65.asset
+  artifactKey: Guid(6c047db83ceb829449117040b12d93bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_65.asset using Guid(6c047db83ceb829449117040b12d93bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435595a4469da56ed65177760c3760e4') in 0.020920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_12.asset
+  artifactKey: Guid(f0f2a0d2109830f4984bc311740ca90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_12.asset using Guid(f0f2a0d2109830f4984bc311740ca90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1671601031a069b6103ff31a7ada999e') in 0.009706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_37.asset
+  artifactKey: Guid(6f496619ab57fb647997e40cd03b453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_37.asset using Guid(6f496619ab57fb647997e40cd03b453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fea3466b26dae2da4d28528f6389a1') in 0.009835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_41.asset
+  artifactKey: Guid(5a57ec8fd00056c478ac56943468dc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_41.asset using Guid(5a57ec8fd00056c478ac56943468dc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5571427850b7fa422b7014c707f5e') in 0.010643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_30.asset
+  artifactKey: Guid(147e92a26d4eeaa4080b98997be9952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_30.asset using Guid(147e92a26d4eeaa4080b98997be9952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45d0444c301b84f00fc4b100599de58') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_44.asset
+  artifactKey: Guid(12d7a5d6ec6f5004296bfa01f472460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/1 - Demo Dungeon/Resources/Tilemap/Palete/0x72_16x16DungeonTileset.v4_44.asset using Guid(12d7a5d6ec6f5004296bfa01f472460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23d0919448ebaf1a97b1d541f4dd34') in 0.007516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.492841 seconds.
+  path: Assets/Scripts/SceneControl.cs
+  artifactKey: Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneControl.cs using Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fb6586a4b131509070d08e9b8e216a') in 0.025278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.994436 seconds.
+  path: Assets/Scripts/Scene Management.cs
+  artifactKey: Guid(e2714d1d1341d3344899a1d0ef96697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scene Management.cs using Guid(e2714d1d1341d3344899a1d0ef96697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9e1afaa8cdba16a41959d11893ebca') in 0.003201 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.100 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4649.
+Total: 10.269100 ms (FindLiveObjects: 1.142600 ms CreateObjectMapping: 0.899700 ms MarkObjects: 8.030000 ms  DeleteObjects: 0.188700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.873 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4653.
+Total: 6.861700 ms (FindLiveObjects: 0.741800 ms CreateObjectMapping: 0.470200 ms MarkObjects: 5.489400 ms  DeleteObjects: 0.157600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.046 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4657.
+Total: 9.460100 ms (FindLiveObjects: 1.260300 ms CreateObjectMapping: 0.926700 ms MarkObjects: 7.070100 ms  DeleteObjects: 0.199400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.055 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4661.
+Total: 9.634300 ms (FindLiveObjects: 1.077100 ms CreateObjectMapping: 0.790900 ms MarkObjects: 7.483200 ms  DeleteObjects: 0.280300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 895.760955 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a7bfbb40c09dee2a65a2de71dd42f0') in 0.039270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.976662 seconds.
+  path: Assets/Scripts/SceneControl.cs
+  artifactKey: Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneControl.cs using Guid(595005a562b529442959a6606a431b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6013296b1295d164d56db57ccccf0452') in 0.003232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.521313 seconds.
+  path: Assets/Scripts/Umbrella.cs
+  artifactKey: Guid(51805b36ddd74ee449c645dbd957de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Umbrella.cs using Guid(51805b36ddd74ee449c645dbd957de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3e85497a7ea5fd78523bc898647aa4') in 0.116334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.084539 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(6b5e2b55c84cee245b5ac8d915c51633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(6b5e2b55c84cee245b5ac8d915c51633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9724e151c25ec071c52b988693f533ef') in 0.047708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.803485 seconds.
+  path: Assets/Scripts/DialoguePlay.cs
+  artifactKey: Guid(47e7ecc4280bab0439f7bf3af6903fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialoguePlay.cs using Guid(47e7ecc4280bab0439f7bf3af6903fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec6e038940c38e12d7d4883136ff9af') in 0.003357 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.054 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4665.
+Total: 10.401300 ms (FindLiveObjects: 1.676800 ms CreateObjectMapping: 0.860600 ms MarkObjects: 7.615000 ms  DeleteObjects: 0.244700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1384.702816 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(6b5e2b55c84cee245b5ac8d915c51633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(6b5e2b55c84cee245b5ac8d915c51633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a612bed85082572a576fec6a238a9bb7') in 0.015074 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.056 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4669.
+Total: 11.808100 ms (FindLiveObjects: 1.186700 ms CreateObjectMapping: 1.191200 ms MarkObjects: 9.214800 ms  DeleteObjects: 0.211900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.525816 seconds.
+  path: Assets/Scripts/DialoguePlay.cs
+  artifactKey: Guid(47e7ecc4280bab0439f7bf3af6903fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialoguePlay.cs using Guid(47e7ecc4280bab0439f7bf3af6903fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea540373d26f1f73d4fe00c72dda0a') in 0.014798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 364.506515 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9984b58933db1ff3e347ec51a16fd3') in 0.029440 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.805 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4673.
+Total: 7.307400 ms (FindLiveObjects: 0.501900 ms CreateObjectMapping: 0.438800 ms MarkObjects: 6.176800 ms  DeleteObjects: 0.188200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.078 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4677.
+Total: 7.880500 ms (FindLiveObjects: 0.947400 ms CreateObjectMapping: 0.679800 ms MarkObjects: 5.925000 ms  DeleteObjects: 0.324700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4681.
+Total: 9.501800 ms (FindLiveObjects: 0.996500 ms CreateObjectMapping: 1.079400 ms MarkObjects: 7.167600 ms  DeleteObjects: 0.255500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.088 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4685.
+Total: 6.645300 ms (FindLiveObjects: 1.021600 ms CreateObjectMapping: 0.636100 ms MarkObjects: 4.859100 ms  DeleteObjects: 0.126100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 795.823802 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8654dc6eee58fbc0f14979d650a881') in 0.044999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.509893 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7063f35c90f476b5c8d8fb44827c59f5') in 0.004266 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.629 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4689.
+Total: 5.593900 ms (FindLiveObjects: 0.700500 ms CreateObjectMapping: 0.524500 ms MarkObjects: 4.210900 ms  DeleteObjects: 0.155400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.036 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4693.
+Total: 9.878600 ms (FindLiveObjects: 1.041800 ms CreateObjectMapping: 1.006600 ms MarkObjects: 7.535000 ms  DeleteObjects: 0.291000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.161 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.5 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4697.
+Total: 8.458000 ms (FindLiveObjects: 0.843500 ms CreateObjectMapping: 0.629600 ms MarkObjects: 6.669000 ms  DeleteObjects: 0.312500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.060 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4701.
+Total: 7.868400 ms (FindLiveObjects: 0.865400 ms CreateObjectMapping: 0.598100 ms MarkObjects: 6.201200 ms  DeleteObjects: 0.200800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4705.
+Total: 4.640100 ms (FindLiveObjects: 0.487700 ms CreateObjectMapping: 0.393900 ms MarkObjects: 3.652800 ms  DeleteObjects: 0.104400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.747 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4709.
+Total: 4.666900 ms (FindLiveObjects: 0.427000 ms CreateObjectMapping: 0.344600 ms MarkObjects: 3.784200 ms  DeleteObjects: 0.109200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008076 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.085 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4713.
+Total: 8.227500 ms (FindLiveObjects: 0.897700 ms CreateObjectMapping: 0.610200 ms MarkObjects: 6.508100 ms  DeleteObjects: 0.208100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.190 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4717.
+Total: 9.458900 ms (FindLiveObjects: 1.119800 ms CreateObjectMapping: 0.869700 ms MarkObjects: 7.296300 ms  DeleteObjects: 0.170100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.070 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4721.
+Total: 9.480500 ms (FindLiveObjects: 1.391200 ms CreateObjectMapping: 0.792800 ms MarkObjects: 7.100600 ms  DeleteObjects: 0.193200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.055 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4725.
+Total: 10.050200 ms (FindLiveObjects: 1.177200 ms CreateObjectMapping: 0.904400 ms MarkObjects: 7.728600 ms  DeleteObjects: 0.236200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.060 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4729.
+Total: 10.182500 ms (FindLiveObjects: 1.296500 ms CreateObjectMapping: 0.995500 ms MarkObjects: 7.694500 ms  DeleteObjects: 0.192500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.702 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4733.
+Total: 8.730700 ms (FindLiveObjects: 0.870900 ms CreateObjectMapping: 0.639700 ms MarkObjects: 7.025700 ms  DeleteObjects: 0.191700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.026 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4737.
+Total: 13.161100 ms (FindLiveObjects: 1.390400 ms CreateObjectMapping: 0.904200 ms MarkObjects: 10.591600 ms  DeleteObjects: 0.271000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.624 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4741.
+Total: 7.129400 ms (FindLiveObjects: 1.436100 ms CreateObjectMapping: 0.851400 ms MarkObjects: 4.632900 ms  DeleteObjects: 0.204900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.710 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4745.
+Total: 9.648600 ms (FindLiveObjects: 1.100100 ms CreateObjectMapping: 0.899400 ms MarkObjects: 7.398400 ms  DeleteObjects: 0.247100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.070 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4749.
+Total: 10.008500 ms (FindLiveObjects: 1.033200 ms CreateObjectMapping: 0.903900 ms MarkObjects: 7.819900 ms  DeleteObjects: 0.248000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5945.061864 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/8 - Fast Shader/Fast Lit.mat
+  artifactKey: Guid(8b4fba5fe86af884aa54b46015a3c02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/8 - Fast Shader/Fast Lit.mat using Guid(8b4fba5fe86af884aa54b46015a3c02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313d55055935596123f3a37cf795efa5') in 0.524702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 2.mat
+  artifactKey: Guid(9b2a28174852fe146bfb10e275a058ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 2.mat using Guid(9b2a28174852fe146bfb10e275a058ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e1dddd8551e034a8cc2eb13b942672') in 0.591404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 1 - SL2D Subshader/SL2DGraph_Sub.mat
+  artifactKey: Guid(10c00cf556dab684a9c0138a55530558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 1 - SL2D Subshader/SL2DGraph_Sub.mat using Guid(10c00cf556dab684a9c0138a55530558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79b331bf36c1d1b548f30f71738caa1') in 0.101575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 0.mat
+  artifactKey: Guid(970f02393149e7a4b95784303bdeb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 0.mat using Guid(970f02393149e7a4b95784303bdeb1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7dc7dac71c644f4757c7703d7c6ddf') in 0.310990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 2 - Fog Of War/Materials/SL2DGraph_FogOfWar.mat
+  artifactKey: Guid(58badf980d42a3d40bc974aa1d08e03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 2 - Fog Of War/Materials/SL2DGraph_FogOfWar.mat using Guid(58badf980d42a3d40bc974aa1d08e03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73b0099e184155396620ebaf3bb137e') in 0.058417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/FunkyCode/SmartUtilities2D/Resources/Materials/ParticleMaterial.mat
+  artifactKey: Guid(289a6e4853fcc6f4eb407c8ae98e63f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/SmartUtilities2D/Resources/Materials/ParticleMaterial.mat using Guid(289a6e4853fcc6f4eb407c8ae98e63f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0fceb94a72c64d53415f61720b0658') in 0.155434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/FunkyCode/SmartUtilities2D/Resources/Materials/GlowMaterial.mat
+  artifactKey: Guid(80a2ce6729c3c274ba3732d38e47ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/SmartUtilities2D/Resources/Materials/GlowMaterial.mat using Guid(80a2ce6729c3c274ba3732d38e47ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a184bafcb96f127047116eb6dbda30') in 0.018982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/7 - Light Translucency/Lit Translucent.mat
+  artifactKey: Guid(84c8822a6fccba8419693f28fb4996b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/7 - Light Translucency/Lit Translucent.mat using Guid(84c8822a6fccba8419693f28fb4996b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490f19a7c8cebf576f3c7d00e007ea8c') in 0.160715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 3.mat
+  artifactKey: Guid(99ff6e4564e3bf342998fa9935217fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 3.mat using Guid(99ff6e4564e3bf342998fa9935217fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede2923b36a48a355e249c304ecb1e6') in 0.428291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 4.mat
+  artifactKey: Guid(1397937acceba4b4191e2a8057638ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 4.mat using Guid(1397937acceba4b4191e2a8057638ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d02b0600add071f37bbecd6784620') in 0.296179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Boxl.mat
+  artifactKey: Guid(434a9377cc1d32844ac1c56de5e86575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Boxl.mat using Guid(434a9377cc1d32844ac1c56de5e86575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2beaa0634bb6b1defaeaa2aa6c5726') in 0.159996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Raving Bots/Materials/Water/GrabPass/Style 0/GP Water 0 Waves 0.mat
+  artifactKey: Guid(adf9c26a612f7e0459e2c223644fdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/GrabPass/Style 0/GP Water 0 Waves 0.mat using Guid(adf9c26a612f7e0459e2c223644fdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657e48d182751b1a12933ae488b04379') in 0.050153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000838 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 0.mat
+  artifactKey: Guid(8361f8c29e2e1cb448f88bf5c33cf141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 0.mat using Guid(8361f8c29e2e1cb448f88bf5c33cf141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd70fe38280048d96bed7dffdef70c97') in 0.065306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ee8c54e2a9832e90f7267def25a9f4') in 0.213534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/TopWalls.mat
+  artifactKey: Guid(9260e597305f6b948a2876c8de6c76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/TopWalls.mat using Guid(9260e597305f6b948a2876c8de6c76f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c806cfc8c32c823d4a1a45ee64f539f') in 0.113484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 1.mat
+  artifactKey: Guid(040775b0b5378fc49a3b33f994c052e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 1.mat using Guid(040775b0b5378fc49a3b33f994c052e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb5e96c7500a1706063d54f7754f295') in 0.238142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Box.mat
+  artifactKey: Guid(9d5afe4e7511f4e4b8585fb9dc132c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Box.mat using Guid(9d5afe4e7511f4e4b8585fb9dc132c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae17ff15cb23fd33a6c522f1828e3f0f') in 0.015973 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4812.
+Total: 7.376400 ms (FindLiveObjects: 0.818700 ms CreateObjectMapping: 0.559900 ms MarkObjects: 5.810900 ms  DeleteObjects: 0.183900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.114 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4816.
+Total: 9.176300 ms (FindLiveObjects: 0.970900 ms CreateObjectMapping: 1.065100 ms MarkObjects: 6.944500 ms  DeleteObjects: 0.193100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.071 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4820.
+Total: 9.995900 ms (FindLiveObjects: 1.167500 ms CreateObjectMapping: 0.996700 ms MarkObjects: 7.589300 ms  DeleteObjects: 0.239700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.108 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4824.
+Total: 8.500200 ms (FindLiveObjects: 0.738200 ms CreateObjectMapping: 0.748700 ms MarkObjects: 6.828000 ms  DeleteObjects: 0.183000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.328 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4828.
+Total: 9.631500 ms (FindLiveObjects: 1.100600 ms CreateObjectMapping: 1.287300 ms MarkObjects: 7.084400 ms  DeleteObjects: 0.156600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.064 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4832.
+Total: 7.173200 ms (FindLiveObjects: 1.136500 ms CreateObjectMapping: 0.796400 ms MarkObjects: 5.100100 ms  DeleteObjects: 0.137700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.072 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4836.
+Total: 8.390700 ms (FindLiveObjects: 0.939300 ms CreateObjectMapping: 0.599100 ms MarkObjects: 6.615900 ms  DeleteObjects: 0.232400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4840.
+Total: 8.537200 ms (FindLiveObjects: 1.001200 ms CreateObjectMapping: 0.726000 ms MarkObjects: 6.618600 ms  DeleteObjects: 0.188300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.178 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.5 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4844.
+Total: 9.585200 ms (FindLiveObjects: 1.004400 ms CreateObjectMapping: 0.788300 ms MarkObjects: 7.605100 ms  DeleteObjects: 0.185000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.054 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.5 MB.
+System memory in use after: 172.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4848.
+Total: 9.815300 ms (FindLiveObjects: 1.477700 ms CreateObjectMapping: 0.822700 ms MarkObjects: 7.272000 ms  DeleteObjects: 0.234600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2401.313716 seconds.
+  path: Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png using Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e15e53d199811f1ab8774c0aeb66e13') in 0.301976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.335743 seconds.
+  path: Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png using Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f036f23dafe459fed5399877ad44e335') in 0.023221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.305471 seconds.
+  path: Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png using Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83286811791e61344ebcdbdc27f21b') in 0.021408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.589730 seconds.
+  path: Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Beach Pack/day/platform-blocks/platform-block-09.png using Guid(8899d32771ba5dc4bbac21bd0b3227de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2900f6e6b67c472b0c7b04cbec1e2fe9') in 0.022334 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.102 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4913.
+Total: 9.403900 ms (FindLiveObjects: 0.977300 ms CreateObjectMapping: 0.680100 ms MarkObjects: 7.559100 ms  DeleteObjects: 0.184400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.080 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4917.
+Total: 8.128000 ms (FindLiveObjects: 0.892100 ms CreateObjectMapping: 0.618600 ms MarkObjects: 6.440800 ms  DeleteObjects: 0.173500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.108 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4921.
+Total: 10.174500 ms (FindLiveObjects: 1.259200 ms CreateObjectMapping: 0.966800 ms MarkObjects: 7.669400 ms  DeleteObjects: 0.275800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.103 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4925.
+Total: 9.945700 ms (FindLiveObjects: 1.034000 ms CreateObjectMapping: 0.784000 ms MarkObjects: 7.892600 ms  DeleteObjects: 0.231900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.790 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4929.
+Total: 10.272500 ms (FindLiveObjects: 1.429000 ms CreateObjectMapping: 0.947900 ms MarkObjects: 7.695700 ms  DeleteObjects: 0.197200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.070 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4933.
+Total: 10.072800 ms (FindLiveObjects: 1.459500 ms CreateObjectMapping: 0.669300 ms MarkObjects: 7.745000 ms  DeleteObjects: 0.195900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.517 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4937.
+Total: 9.631000 ms (FindLiveObjects: 1.351900 ms CreateObjectMapping: 1.078900 ms MarkObjects: 6.926100 ms  DeleteObjects: 0.269700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.057 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4941.
+Total: 9.081900 ms (FindLiveObjects: 1.139400 ms CreateObjectMapping: 0.556000 ms MarkObjects: 7.182800 ms  DeleteObjects: 0.200700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.532 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4945.
+Total: 10.515700 ms (FindLiveObjects: 1.150300 ms CreateObjectMapping: 0.877400 ms MarkObjects: 8.219700 ms  DeleteObjects: 0.263800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.078 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4949.
+Total: 8.519800 ms (FindLiveObjects: 1.080800 ms CreateObjectMapping: 0.627400 ms MarkObjects: 6.614300 ms  DeleteObjects: 0.194400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.733 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4953.
+Total: 10.035600 ms (FindLiveObjects: 1.418800 ms CreateObjectMapping: 0.732000 ms MarkObjects: 7.681700 ms  DeleteObjects: 0.198700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.080 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4957.
+Total: 7.319300 ms (FindLiveObjects: 0.755600 ms CreateObjectMapping: 0.530600 ms MarkObjects: 5.880800 ms  DeleteObjects: 0.150300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.491 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4961.
+Total: 14.369800 ms (FindLiveObjects: 0.962900 ms CreateObjectMapping: 0.625800 ms MarkObjects: 12.563400 ms  DeleteObjects: 0.215100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.118 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4965.
+Total: 8.406500 ms (FindLiveObjects: 0.913600 ms CreateObjectMapping: 0.691400 ms MarkObjects: 6.629300 ms  DeleteObjects: 0.170100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.269 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4969.
+Total: 4.485500 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.362500 ms MarkObjects: 3.541200 ms  DeleteObjects: 0.112400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4973.
+Total: 6.900000 ms (FindLiveObjects: 0.684800 ms CreateObjectMapping: 0.417300 ms MarkObjects: 5.600400 ms  DeleteObjects: 0.195100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.561 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4977.
+Total: 9.832700 ms (FindLiveObjects: 1.154900 ms CreateObjectMapping: 0.822600 ms MarkObjects: 7.640500 ms  DeleteObjects: 0.211800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.094 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4981.
+Total: 8.768700 ms (FindLiveObjects: 1.252400 ms CreateObjectMapping: 0.823200 ms MarkObjects: 6.498800 ms  DeleteObjects: 0.190600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.397 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4985.
+Total: 9.348400 ms (FindLiveObjects: 1.401900 ms CreateObjectMapping: 0.747400 ms MarkObjects: 6.973000 ms  DeleteObjects: 0.223400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.060 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4989.
+Total: 7.661000 ms (FindLiveObjects: 0.917500 ms CreateObjectMapping: 0.785500 ms MarkObjects: 5.785600 ms  DeleteObjects: 0.170100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.100 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4993.
+Total: 10.309200 ms (FindLiveObjects: 1.329700 ms CreateObjectMapping: 0.920300 ms MarkObjects: 7.846500 ms  DeleteObjects: 0.209200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.066 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4997.
+Total: 10.891400 ms (FindLiveObjects: 1.294000 ms CreateObjectMapping: 1.596100 ms MarkObjects: 7.776700 ms  DeleteObjects: 0.220500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.017 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5001.
+Total: 8.336900 ms (FindLiveObjects: 1.219900 ms CreateObjectMapping: 0.579900 ms MarkObjects: 6.340500 ms  DeleteObjects: 0.194200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.066 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5005.
+Total: 12.703700 ms (FindLiveObjects: 1.324600 ms CreateObjectMapping: 1.232100 ms MarkObjects: 9.863700 ms  DeleteObjects: 0.279800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.033 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5009.
+Total: 8.910300 ms (FindLiveObjects: 0.764000 ms CreateObjectMapping: 0.594500 ms MarkObjects: 7.363700 ms  DeleteObjects: 0.185200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.001 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5013.
+Total: 10.065000 ms (FindLiveObjects: 1.041000 ms CreateObjectMapping: 1.215400 ms MarkObjects: 7.575000 ms  DeleteObjects: 0.229900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007467 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.045 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5017.
+Total: 9.875800 ms (FindLiveObjects: 1.151800 ms CreateObjectMapping: 0.748000 ms MarkObjects: 7.804400 ms  DeleteObjects: 0.168900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5021.
+Total: 11.453200 ms (FindLiveObjects: 1.059600 ms CreateObjectMapping: 2.388500 ms MarkObjects: 7.783800 ms  DeleteObjects: 0.218700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.059 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5025.
+Total: 9.522300 ms (FindLiveObjects: 1.066400 ms CreateObjectMapping: 0.801200 ms MarkObjects: 7.441900 ms  DeleteObjects: 0.210400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.171 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5029.
+Total: 9.358600 ms (FindLiveObjects: 1.348400 ms CreateObjectMapping: 0.693800 ms MarkObjects: 7.172900 ms  DeleteObjects: 0.141500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.243 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5033.
+Total: 9.591300 ms (FindLiveObjects: 1.027400 ms CreateObjectMapping: 0.853600 ms MarkObjects: 7.515700 ms  DeleteObjects: 0.191900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.012 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5037.
+Total: 9.576700 ms (FindLiveObjects: 1.408900 ms CreateObjectMapping: 1.006200 ms MarkObjects: 6.973100 ms  DeleteObjects: 0.185300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.990 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5041.
+Total: 11.509700 ms (FindLiveObjects: 1.558100 ms CreateObjectMapping: 1.240300 ms MarkObjects: 8.484100 ms  DeleteObjects: 0.224200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.054 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5045.
+Total: 9.434000 ms (FindLiveObjects: 0.914900 ms CreateObjectMapping: 0.602400 ms MarkObjects: 7.672700 ms  DeleteObjects: 0.241600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.064 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5049.
+Total: 9.438300 ms (FindLiveObjects: 1.087300 ms CreateObjectMapping: 0.855500 ms MarkObjects: 7.318200 ms  DeleteObjects: 0.175100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.258 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5053.
+Total: 9.740400 ms (FindLiveObjects: 1.081000 ms CreateObjectMapping: 1.061200 ms MarkObjects: 7.407800 ms  DeleteObjects: 0.188400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.263 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5057.
+Total: 10.547800 ms (FindLiveObjects: 1.461400 ms CreateObjectMapping: 0.934800 ms MarkObjects: 7.957600 ms  DeleteObjects: 0.187500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.265 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 174.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5061.
+Total: 10.578300 ms (FindLiveObjects: 1.205100 ms CreateObjectMapping: 1.016300 ms MarkObjects: 8.064400 ms  DeleteObjects: 0.289300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.285 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5065.
+Total: 8.440800 ms (FindLiveObjects: 0.969400 ms CreateObjectMapping: 0.617500 ms MarkObjects: 6.677100 ms  DeleteObjects: 0.174200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.717 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5069.
+Total: 10.273500 ms (FindLiveObjects: 0.751300 ms CreateObjectMapping: 0.574400 ms MarkObjects: 8.713000 ms  DeleteObjects: 0.231400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.097 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5073.
+Total: 7.381700 ms (FindLiveObjects: 1.051000 ms CreateObjectMapping: 0.662000 ms MarkObjects: 5.481000 ms  DeleteObjects: 0.184900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.879 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5077.
+Total: 9.931700 ms (FindLiveObjects: 1.263600 ms CreateObjectMapping: 0.844200 ms MarkObjects: 7.619700 ms  DeleteObjects: 0.201300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.521 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5081.
+Total: 10.506600 ms (FindLiveObjects: 1.772700 ms CreateObjectMapping: 0.796800 ms MarkObjects: 7.726800 ms  DeleteObjects: 0.206300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
