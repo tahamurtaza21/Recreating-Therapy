@@ -30,11 +30,10 @@ public class DialoguePlay : MonoBehaviour
 
     [SerializeField] GameObject Sun;
 
-
+    Player playerScript;
     void Start()
     {
-        //StartCoroutine(SunUp());
-        //StartCoroutine(BackgroundLight());
+        playerScript = GetComponent<Player>();    
     }
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -78,6 +77,9 @@ public class DialoguePlay : MonoBehaviour
         //BackgroundLighter();
         StartCoroutine(SunUp());
         backgroundChangingSpeed += 0.1f;
+        playerScript.enabled = false;
+        Sun.GetComponent<AudioSource>().enabled = true;
+        //Player Animator sits down and disable movement
     }
 
     void BackgroundLighter()
@@ -97,10 +99,10 @@ public class DialoguePlay : MonoBehaviour
 
     IEnumerator SunUp()
     {
-        for (float i = Sun.transform.position.y; i <= 25f; i += 0.1f)
+        for (float i = Sun.transform.position.y; i <= 20f; i += 0.1f)
         {
             Sun.transform.position = new Vector3(Sun.transform.position.x, i, Sun.transform.position.z);
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.1f);
         }
     }
 

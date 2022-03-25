@@ -17,18 +17,13 @@ public class Player : MonoBehaviour
     private CapsuleCollider2D bodyCollider; 
     DialoguePlay mydialoguePlay;
 
-    [SerializeField] GameObject Umbrella;
-    [SerializeField] GameObject UmbrellaSprite;
+    [SerializeField] GameObject umbrella;
 
     float playerGravityAtStart;
 
-    void Awake() 
-    {
-        UmbrellaSprite.SetActive(false);    
-    }
-
     void Start() 
     {
+        umbrella.SetActive(false);
         playerAnimator = gameObject.GetComponent<Animator>();
         umbrellaAnimator = GetComponentInChildren<Animator>();
         myrigidbody2D = GetComponent<Rigidbody2D>();
@@ -42,6 +37,10 @@ public class Player : MonoBehaviour
         Walk();
         FlipSprite();
         Climb();
+        umbrella.transform.position = new Vector3
+        (this.transform.position.x,
+        this.transform.position.y,
+        this.transform.position.z);
     }
 
     void Walk()
@@ -56,6 +55,7 @@ public class Player : MonoBehaviour
         {
             myrigidbody2D.gravityScale = playerGravityAtStart;
             //playerAnimator.SetBool("isClimbing", false);
+            //umbrella.SetActive(true);
             return;
         }
 
@@ -65,6 +65,7 @@ public class Player : MonoBehaviour
         
         bool playerHasVerticalSpeed = Mathf.Abs(myrigidbody2D.velocity.y) > Mathf.Epsilon;
         //playerAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
+        umbrella.SetActive(false);
     }
 
     void OnMove(InputValue value)
@@ -75,18 +76,16 @@ public class Player : MonoBehaviour
 
     void OnUmbrellaPress()
     {
-        UmbrellaSprite.SetActive(false);
         if(mydialoguePlay.atTherapist == true)
         {
-            Umbrella.SetActive(true);
-            UmbrellaSprite.SetActive(false);
+            Debug.Log("therapist");
+            umbrella.SetActive(true);
             moveSpeed = 3f;
         }
     }
     void OnUmbrellaLetGo()
     {
-        Umbrella.SetActive(false);
-        UmbrellaSprite.SetActive(true);
+        umbrella.SetActive(false);
         moveSpeed = 1.5f;
     }
 
@@ -99,5 +98,4 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector2(Mathf.Sign(myrigidbody2D.velocity.x), 1f);
         }
     }
-
 }

@@ -15,11 +15,11 @@ E:/Unity Projects/Thesis Project/Thesis Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56672
+59943
 Successfully changed project path to: E:/Unity Projects/Thesis Project/Thesis Project
 E:/Unity Projects/Thesis Project/Thesis Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 211.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 317.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path F:/Unity Editors/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,19 +36,431 @@ Initialize mono
 Mono path[0] = 'F:/Unity Editors/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001775 seconds.
+Registered in 0.002930 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 200.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 325.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 24.437 seconds
+- Completed reload, in  6.340 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005757 seconds.
+Registered in 0.007907 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 336.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.842 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.5 MB.
+System memory in use after: 172.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 9.318200 ms (FindLiveObjects: 1.013200 ms CreateObjectMapping: 0.794900 ms MarkObjects: 7.224600 ms  DeleteObjects: 0.282600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Start Game.unity
+  artifactKey: Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Game.unity using Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb87abfc714e1950777429aefe70855') in 0.063714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 367.574126 seconds.
+  path: Assets/OpenDyslexic-Regular.otf
+  artifactKey: Guid(10583b4d726227442b5f6c7aeff2bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenDyslexic-Regular.otf using Guid(10583b4d726227442b5f6c7aeff2bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d015f8ea85f84ffcd21bcae65c7602') in 0.489264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.616969 seconds.
+  path: Assets/Philosopher-Regular.ttf
+  artifactKey: Guid(00e2ae67dde3a6249ad20fe0227591ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Philosopher-Regular.ttf using Guid(00e2ae67dde3a6249ad20fe0227591ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648ab8f23aee940ba5a5d13e4cdb700') in 0.034827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.325649 seconds.
+  path: Assets/Fonts/OpenDyslexic.asset
+  artifactKey: Guid(709f9156c2905be4fa8f6cf1f4f8917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/OpenDyslexic.asset using Guid(709f9156c2905be4fa8f6cf1f4f8917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a33b0c991185e98ac404a4e0707977') in 0.114931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Fonts/Philosopher-Regular SDF.asset
+  artifactKey: Guid(c7f58bac7fc548a40bec822f4ba8d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Philosopher-Regular SDF.asset using Guid(c7f58bac7fc548a40bec822f4ba8d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2eda356412e700d8ccf387bc85a70a') in 0.052470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1228.237551 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 5 -All In One/All In One.mat
+  artifactKey: Guid(8aada191fabbd30439ccd00a863d51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 5 -All In One/All In One.mat using Guid(8aada191fabbd30439ccd00a863d51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444bd676c01a3f0c3654fbd1ec2263f9') in 0.426311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 6 - All In One Sub/All In One Sub.mat
+  artifactKey: Guid(f2dc8e831fa1ba2448b171696cf1749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 6 - All In One Sub/All In One Sub.mat using Guid(f2dc8e831fa1ba2448b171696cf1749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621aea746dc09f8379d36c4aca114ed3') in 0.019570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071176 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Box 2.mat
+  artifactKey: Guid(69237fd1f1a3f574783b0c403a2a43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Box 2.mat using Guid(69237fd1f1a3f574783b0c403a2a43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4fdc1f382ad256960c2da98cf25116') in 0.123010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Fog of War.mat
+  artifactKey: Guid(f26376a572488a44e9729a0f760626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Fog of War.mat using Guid(f26376a572488a44e9729a0f760626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7947c335da15fe0f4f028b43ea0b57f0') in 0.302106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 2.mat
+  artifactKey: Guid(584c3c9ac202fc149922845532a715a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 2.mat using Guid(584c3c9ac202fc149922845532a715a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e91e8a1fafc2afcffabe43787537f') in 0.455209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 1.mat
+  artifactKey: Guid(91e54fc651a540c4e97e1ea01bd21e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 1.mat using Guid(91e54fc651a540c4e97e1ea01bd21e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b792d72be8031d3295901d5c1403288') in 0.304727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 3.mat
+  artifactKey: Guid(2ff6b96dc0aa67d4a83b5bff513144a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Waves 3.mat using Guid(2ff6b96dc0aa67d4a83b5bff513144a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e0a41477878879a9d73aefa5c165a0') in 0.340576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/Floor.mat
+  artifactKey: Guid(af020e1de2013924ea9a68d79142b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/Floor.mat using Guid(af020e1de2013924ea9a68d79142b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70574ab2c354673991b6d62897e44004') in 0.179227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/2 - Bump Material/Bump Material.mat
+  artifactKey: Guid(9b6ed0a1ef2fcdf4ab408a095c5e083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/2 - Bump Material/Bump Material.mat using Guid(9b6ed0a1ef2fcdf4ab408a095c5e083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada0097df49c13dcb13a32d3a14bc6b0') in 0.291511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 3 - Without Sub Shader/Materials/SL2DGraph Lit Simple.mat
+  artifactKey: Guid(15fb6a86f5f6dee44909bcd55dfd564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 3 - Without Sub Shader/Materials/SL2DGraph Lit Simple.mat using Guid(15fb6a86f5f6dee44909bcd55dfd564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0aa2766ddbace0dbcf5a2bc4ce00ba7') in 0.020201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 7 - Depth/Depth.mat
+  artifactKey: Guid(dcb23faeb32973e47845b11f77a82818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Shader Graph/Demo 7 - Depth/Depth.mat using Guid(dcb23faeb32973e47845b11f77a82818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31acbb9a34ca29e39d328987f6427ee') in 0.053570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/LowWalls.mat
+  artifactKey: Guid(f2b4850692f52d146b7e669cf1cbc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/LowWalls.mat using Guid(f2b4850692f52d146b7e669cf1cbc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81a1dd6ea8f5ee9f99788a36546ce24') in 0.019253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Floor.mat
+  artifactKey: Guid(4fe66b812e740194c81ca95e68766ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/Floor.mat using Guid(4fe66b812e740194c81ca95e68766ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a62ffffbb876e3aab06c025fa512300') in 0.053749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/3 - Mask Material/Lit Mask.mat
+  artifactKey: Guid(f0f3a22a6ddbbd846ad61d983df7dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/3 - Mask Material/Lit Mask.mat using Guid(f0f3a22a6ddbbd846ad61d983df7dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f7c8cf4017a681d497f570fef20f73') in 0.061880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Basics (Overlay)/1 - Basic Setup/Shape Unlit Material.mat
+  artifactKey: Guid(78af69e42eb019a44bc4003ca9394b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Basics (Overlay)/1 - Basic Setup/Shape Unlit Material.mat using Guid(78af69e42eb019a44bc4003ca9394b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8227b7ace980e6ab4d3b7576c2e8ca') in 0.123834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Raving Bots/Materials/Water/FX/Splash FX Drops.mat
+  artifactKey: Guid(765f7f3ad4095f14aa5fb8fb3bf0b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/FX/Splash FX Drops.mat using Guid(765f7f3ad4095f14aa5fb8fb3bf0b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cc4e4bddc34b067ed62d5ba7a5c5f0') in 0.061543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Raving Bots/Materials/Water/FX/Splash FX Bubbles.mat
+  artifactKey: Guid(90aa3de13502d5c4ba46cbffc54e94a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/FX/Splash FX Bubbles.mat using Guid(90aa3de13502d5c4ba46cbffc54e94a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f632b8a2a49bd1c9e6a5fe10e61ffe2') in 0.042598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/4 - Fog of War/Sprite FOW.mat
+  artifactKey: Guid(730b2e7e909e6a94d850327e8f3bc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/4 - Fog of War/Sprite FOW.mat using Guid(730b2e7e909e6a94d850327e8f3bc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbf9d7ef88638950c48236ba71ddb8e') in 0.042730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Floor.mat
+  artifactKey: Guid(42f0c62780cf4fe459147a7ac9dde351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/4 - Lit Occlusion/Floor.mat using Guid(42f0c62780cf4fe459147a7ac9dde351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fe911781d456c82397f9ede4c56d00') in 0.205003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001206 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/House.mat
+  artifactKey: Guid(2ccad2f42e1062e4c970b11a1201512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/5 - Depth Map/House.mat using Guid(2ccad2f42e1062e4c970b11a1201512d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d4f9998528fd9ba4622c274548466') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 4.mat
+  artifactKey: Guid(4ec4f4b02b6481442bfc2755c89fd6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Waves 4.mat using Guid(4ec4f4b02b6481442bfc2755c89fd6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff57800f78a01f7f35a6d149014b5cfa') in 0.228647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Plain.mat
+  artifactKey: Guid(830d767b02710de498ee96e9f73b9ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 2/RT Water 2 Plain.mat using Guid(830d767b02710de498ee96e9f73b9ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54128af56cebfb09b1374632059f761') in 0.215199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/7 - Light Translucency/Lit Shadows.mat
+  artifactKey: Guid(b53e56ce9d48c154aa50f2c6e521bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/7 - Light Translucency/Lit Shadows.mat using Guid(b53e56ce9d48c154aa50f2c6e521bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10eacc0235df509b811096854042d42') in 0.032739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Basics (Overlay)/5 - Particles/Particle Material.mat
+  artifactKey: Guid(1f3c6cf4c0577224b93f82035738cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Basics (Overlay)/5 - Particles/Particle Material.mat using Guid(1f3c6cf4c0577224b93f82035738cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdf341889d4f9b1c62d19d42a938e92') in 0.123223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/Multiple Cameras/Default Lit.mat
+  artifactKey: Guid(7e2227b98d8ed3341808b7566b994704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/Multiple Cameras/Default Lit.mat using Guid(7e2227b98d8ed3341808b7566b994704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5443c02db24d2a0984d2a9f5e8d8f2e3') in 0.067467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001438 seconds.
+  path: Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Plain.mat
+  artifactKey: Guid(e668458ff06615546bbea2c6a4aa0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raving Bots/Materials/Water/RenderTexture/Style 0/RT Water 0 Plain.mat using Guid(e668458ff06615546bbea2c6a4aa0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da5dc5f8e8be176c13a00c9f848f8fc') in 0.045511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/FunkyCode/SmartUtilities2D/Resources/Materials/LineMaterial.mat
+  artifactKey: Guid(afd0df931b38be841850ae87ca6e156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/SmartUtilities2D/Resources/Materials/LineMaterial.mat using Guid(afd0df931b38be841850ae87ca6e156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbde87dd22c19ff7d875002cb878a9c') in 0.343818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Perspective/3D Scene/Lit Material.mat
+  artifactKey: Guid(b5b4869adda4b92439570b0e83b1bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Perspective/3D Scene/Lit Material.mat using Guid(b5b4869adda4b92439570b0e83b1bf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae69d96598a317aee069f053d3fb7844') in 0.027199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/FunkyCode/SmartUtilities2D/Resources/Materials/TUnlitTransparent.mat
+  artifactKey: Guid(2d7b7a4df4861e54393aa408e34a9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/SmartUtilities2D/Resources/Materials/TUnlitTransparent.mat using Guid(2d7b7a4df4861e54393aa408e34a9ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318f77cd1d95b116ef3d2440144d1bef') in 0.084270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Sprite Lit.mat
+  artifactKey: Guid(e327f3959e780b5419ed4dd722768102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Sprite Lit.mat using Guid(e327f3959e780b5419ed4dd722768102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c7bf8a1168433c300d39289a187c32') in 0.016655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/MidWalls.mat
+  artifactKey: Guid(42ff9174911378047ba18f7030179875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/6 - Multi-Layer Setup/Materials/MidWalls.mat using Guid(42ff9174911378047ba18f7030179875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258483c35d2b59ea7f4b0bcbb664ed20') in 0.017791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Sprite Lit Grey.mat
+  artifactKey: Guid(b9f300f0749360349aeeb0fc241d66bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Materials/1 -  Lit Material/Sprite Lit Grey.mat using Guid(b9f300f0749360349aeeb0fc241d66bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349f862401e4b590cc8f7276e070a59e') in 0.069302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/9 - Day Lighting Tilemap/Shadows Blur.mat
+  artifactKey: Guid(6dd275f3ef745d348baa6683c01e6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/9 - Day Lighting Tilemap/Shadows Blur.mat using Guid(6dd275f3ef745d348baa6683c01e6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddcdf8c1a4cd3e788f42b9526687779') in 0.060540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/4 - Fog of War/Buffer FOW.mat
+  artifactKey: Guid(cc6461aeccb3e1746a28d57e420af38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartLighting2D/Demos - Intermediate/4 - Fog of War/Buffer FOW.mat using Guid(cc6461aeccb3e1746a28d57e420af38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5853056db906788aa6b13b2b7c73fbd') in 0.026554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.396173 seconds.
+  path: Assets/Fonts/OpenDyslexic.asset
+  artifactKey: Guid(709f9156c2905be4fa8f6cf1f4f8917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/OpenDyslexic.asset using Guid(709f9156c2905be4fa8f6cf1f4f8917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e28b19fa9dfa19d7f64773f45ef8127') in 0.056296 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.744 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4066 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.4 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4755.
+Total: 4.612300 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.343800 ms MarkObjects: 3.693200 ms  DeleteObjects: 0.120500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.343189 seconds.
+  path: Assets/Scenes/Start Game.unity
+  artifactKey: Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Game.unity using Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb5a416484697e7afbde1b8cec18c36') in 0.022158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0764fd08adba37828f84dfa4ed19d3') in 0.065035 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.697 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.3 MB.
+System memory in use after: 173.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4759.
+Total: 5.251200 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.319200 ms MarkObjects: 4.374700 ms  DeleteObjects: 0.107700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.008 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.4 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4763.
+Total: 8.781300 ms (FindLiveObjects: 1.216500 ms CreateObjectMapping: 0.830200 ms MarkObjects: 6.539900 ms  DeleteObjects: 0.191000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.042 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.4 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4767.
+Total: 8.810000 ms (FindLiveObjects: 1.068200 ms CreateObjectMapping: 0.749100 ms MarkObjects: 6.843400 ms  DeleteObjects: 0.145400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.357806 seconds.
+  path: Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab
+  artifactKey: Guid(1d48feb1cf04aec499db38c5c2abd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab using Guid(1d48feb1cf04aec499db38c5c2abd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85ea541a00f5bf6c7a439484c19f3ef') in 0.343227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.278 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.4 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4771.
+Total: 10.973000 ms (FindLiveObjects: 0.978800 ms CreateObjectMapping: 0.781200 ms MarkObjects: 8.953600 ms  DeleteObjects: 0.256100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1426.045787 seconds.
+  path: Assets/Calm-and-Peaceful.mp3
+  artifactKey: Guid(8647a6e146be82941b17de1e5281cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Calm-and-Peaceful.mp3 using Guid(8647a6e146be82941b17de1e5281cfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da56c80ef6443a8611f5738a81cc1bc8') in 0.256661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/mixkit-little-birds-singing-in-the-trees-17.wav
+  artifactKey: Guid(c066c24ebf8637040a759b07b439e270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mixkit-little-birds-singing-in-the-trees-17.wav using Guid(c066c24ebf8637040a759b07b439e270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877324a01444f1f2f3d7e9e90521650a') in 0.020816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 520.718398 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca84b2eba4e58e53107fae0f2fd88936') in 0.005415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628326 seconds.
+  path: Assets/Scenes/Start Game.unity
+  artifactKey: Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Game.unity using Guid(a6a473fba69df9748977eff05bdaadf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167eab0c69ac65477fd3b1ab9238f08d') in 0.004376 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
