@@ -12,7 +12,7 @@ namespace DialogueEditor
 
         private void Update()
         {
-            if (ConversationManager.Instance != null)
+            if(ConversationManager.Instance != null)
             {
                 UpdateConversationInput();
             }

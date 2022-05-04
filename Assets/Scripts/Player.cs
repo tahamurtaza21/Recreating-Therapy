@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-
     Vector2 moveInput;
     [SerializeField] float moveSpeed = 3f;
     private float moveAmount;
@@ -17,6 +16,8 @@ public class Player : MonoBehaviour
     private CapsuleCollider2D bodyCollider; 
     DialoguePlay mydialoguePlay;
 
+    bool UmbrellaUsing = false;
+
     [SerializeField] GameObject umbrella;
 
     float playerGravityAtStart;
@@ -25,7 +26,7 @@ public class Player : MonoBehaviour
     {
         umbrella.SetActive(false);
         playerAnimator = gameObject.GetComponent<Animator>();
-        umbrellaAnimator = GetComponentInChildren<Animator>();
+        umbrellaAnimator = umbrella.GetComponent<Animator>();
         myrigidbody2D = GetComponent<Rigidbody2D>();
         mydialoguePlay = GetComponent<DialoguePlay>(); 
         playerGravityAtStart = myrigidbody2D.gravityScale; 
@@ -35,20 +36,55 @@ public class Player : MonoBehaviour
     void Update()
     {
         Walk();
+        usingUmbrella();
         FlipSprite();
         Climb();
-        umbrella.transform.position = new Vector3
-        (this.transform.position.x,
-        this.transform.position.y,
-        this.transform.position.z);
     }
 
     void Walk()
     {
         Vector2 playervelocity = new Vector2(moveInput.x  * moveSpeed, myrigidbody2D.velocity.y);
-        myrigidbody2D.velocity = playervelocity; 
+        myrigidbody2D.velocity = playervelocity;         
     }
 
+    void usingUmbrella()
+    {
+        bool playerHasHorizontalSpeed = Mathf.Abs(myrigidbody2D.velocity.x) > Mathf.Epsilon;
+
+        umbrella.transform.position = new Vector3
+        (this.transform.position.x + 0.1f,
+        this.transform.position.y + 0.1f,
+        this.transform.position.z);
+
+        if(UmbrellaUsing == true && playerHasHorizontalSpeed)
+        {
+            //Debug.Log("Using Umbrella");
+
+            playerAnimator.SetBool("isSadWalking",false);
+            playerAnimator.SetBool("isWalking",true);
+            playerAnimator.SetBool("Umbrella",true);
+        }
+        else if(UmbrellaUsing == false && playerHasHorizontalSpeed)
+        {
+            //Debug.Log("Not Using Umbrella");
+            
+            playerAnimator.SetBool("isSadWalking",true);
+            playerAnimator.SetBool("isWalking",false);
+            playerAnimator.SetBool("Umbrella",false);
+        }
+        else if(UmbrellaUsing == true && playerHasHorizontalSpeed == false)
+        {
+            playerAnimator.SetBool("isSadWalking",false);
+            playerAnimator.SetBool("isWalking",false);
+            playerAnimator.SetBool("Umbrella",true);
+        }
+        else // for idle
+        {
+            playerAnimator.SetBool("isSadWalking",false);
+            playerAnimator.SetBool("isWalking",false);
+            playerAnimator.SetBool("Umbrella",false);
+        }
+    }
     void Climb()
     {
         if(!bodyCollider.IsTouchingLayers(LayerMask.GetMask("Climbing"))) 
@@ -65,27 +101,35 @@ public class Player : MonoBehaviour
         
         bool playerHasVerticalSpeed = Mathf.Abs(myrigidbody2D.velocity.y) > Mathf.Epsilon;
         //playerAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
-        umbrella.SetActive(false);
+        //umbrella.SetActive(false);
     }
 
     void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
-        Debug.Log(moveInput);
+        //Debug.Log(moveInput);
     }
 
     void OnUmbrellaPress()
     {
         if(mydialoguePlay.atTherapist == true)
         {
+            UmbrellaUsing = true;
             Debug.Log("therapist");
-            umbrella.SetActive(true);
+            Debug.Log(UmbrellaUsing);
+            umbrellaAnimator.SetBool("isPressingDown", true);
+            //umbrella.SetActive(true);
             moveSpeed = 3f;
+            Debug.Log(transform.position);
+            Debug.Log(umbrella.transform.position);
         }
     }
     void OnUmbrellaLetGo()
     {
-        umbrella.SetActive(false);
+        UmbrellaUsing = false;
+        umbrellaAnimator.SetBool("isPressingDown", false);
+        Debug.Log(UmbrellaUsing);
+        //umbrella.SetActive(false);
         moveSpeed = 1.5f;
     }
 

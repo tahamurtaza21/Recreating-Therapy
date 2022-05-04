@@ -19,8 +19,8 @@ public class Umbrella : MonoBehaviour
 
     void Start() 
     {
-        offsetX = new Vector3(0,height,distance);
-        offsetY = new Vector3(0,0,distance);    
+        //offsetX = new Vector3(0,height,distance);
+        //offsetY = new Vector3(0,0,distance);    
     }
 
     void Update()

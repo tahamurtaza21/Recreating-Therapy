@@ -15,6 +15,8 @@ public class DialoguePlay : MonoBehaviour
     [SerializeField] Rain rainControl;
 
     [SerializeField] SpriteRenderer backgroundImage;
+
+    SpriteRenderer characterImage;
     [SerializeField] SpriteShapeRenderer platform;
 
     [SerializeField] Water2DMaterialScaler water;
@@ -26,14 +28,24 @@ public class DialoguePlay : MonoBehaviour
 
     [SerializeField] float lightingBackgroundvalue = 0.07f;
 
-    [SerializeField] float backgroundChangingSpeed = 0.37f;
+    [SerializeField] float backgroundChangingSpeed = 0.20f;
 
-    [SerializeField] GameObject Sun;
+    [SerializeField] GameObject Music;
+
+    [SerializeField] GameObject RestartButton;
 
     Player playerScript;
+
+    Animator playerAnimator;
+    [SerializeField] Animator backGroundAnimator;
+
+    [SerializeField] GameObject umbrella;
     void Start()
     {
-        playerScript = GetComponent<Player>();    
+        playerAnimator = GetComponent<Animator>();
+        playerScript = GetComponent<Player>();
+        characterImage = GetComponent<SpriteRenderer>();
+        //StartCoroutine(SunUp());
     }
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -46,13 +58,13 @@ public class DialoguePlay : MonoBehaviour
         {
             ChangeEnvironment();
             atTherapist = true;
+            umbrella.SetActive(true);
         }
 
         else if(backGroundConversation[ConversationNumber].tag == "Final")
         {
             FinalSettings();    
         }
-
     }
 
     void ChangeEnvironment()  // this is to change the color of the dialogue text and panel when player talks to therapist
@@ -63,23 +75,30 @@ public class DialoguePlay : MonoBehaviour
         rainControl.RainScript.RainIntensity -=  rainIntensityreduce; // Control rain after meeting therapist
         water.WaveSpeed -= waveIntensityreduce;
         StartCoroutine(BackgroundLight());
+        StartCoroutine(CharacterLight());
         //BackgroundLighter();
         backgroundChangingSpeed += 0.1f;
     }
 
     void FinalSettings()
     {
+        Debug.Log("Final Settings");
         ConversationManager.Instance.DialogueText.color = DialogueTextColor;
         ConversationManager.Instance.DialogueBackground.color = DialogueBoxColor;
         rainControl.RainScript.RainIntensity =  0; // Control rain after meeting therapist
-        water.WaveSpeed = 0;
         StartCoroutine(BackgroundLight());
+        StartCoroutine(CharacterLight());
         //BackgroundLighter();
-        StartCoroutine(SunUp());
+        //StartCoroutine(SunUp());
         backgroundChangingSpeed += 0.1f;
         playerScript.enabled = false;
-        Sun.GetComponent<AudioSource>().enabled = true;
-        //Player Animator sits down and disable movement
+        playerAnimator.SetBool("isWalking", false);
+        playerAnimator.SetBool("isSadWalking", false);
+        //playerAnimator.SetBool("Final",true);
+        Music.GetComponent<AudioSource>().enabled = true;
+
+        StartCoroutine(WaitThenRestart());
+       //Player Animator sits down and disable movemen
     }
 
     void BackgroundLighter()
@@ -97,14 +116,24 @@ public class DialoguePlay : MonoBehaviour
         Debug.Log(backgroundImage.color);
     }
 
-    IEnumerator SunUp()
+
+    IEnumerator WaitThenRestart()
+    {
+        while(ConversationManager.Instance.IsConversationActive)
+        {
+            yield return new WaitForSeconds(2f);
+        }
+        RestartButton.SetActive(true);
+    }
+
+    /* IEnumerator SunUp()
     {
         for (float i = Sun.transform.position.y; i <= 20f; i += 0.1f)
         {
             Sun.transform.position = new Vector3(Sun.transform.position.x, i, Sun.transform.position.z);
             yield return new WaitForSeconds(0.1f);
         }
-    }
+    } */
 
     IEnumerator BackgroundLight()
     {
@@ -129,6 +158,30 @@ public class DialoguePlay : MonoBehaviour
 
             platform.color = p;
             backgroundImage.color = c;
+
+            //Debug.Log(c);
+
+            yield return new WaitForSeconds(0.02f);
+        }
+    }
+
+    IEnumerator CharacterLight()
+    {
+        //Debug.Log(backgroundImage.color);
+        //Debug.Log(backgroundImage.color.r + lightingBackgroundvalue);
+
+        for(float i = characterImage.color.r;
+        i <= backgroundChangingSpeed;
+        i += 0.01f)
+        {
+            //Debug.Log(i);
+
+            Color c = characterImage.color;
+            c.r = i;
+            c.g = i;
+            c.b = i;
+
+            characterImage.color = c;
 
             //Debug.Log(c);
 

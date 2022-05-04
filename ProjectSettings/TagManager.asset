@@ -58,3 +58,6 @@ TagManager:
   - name: Climb
     uniqueID: 3246264935
     locked: 0
+  - name: Background
+    uniqueID: 231337969
+    locked: 0
