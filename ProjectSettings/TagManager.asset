@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Therapist
   - Final
+  - Triggers
   layers:
   - Default
   - TransparentFX

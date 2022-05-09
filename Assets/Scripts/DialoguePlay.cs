@@ -40,6 +40,8 @@ public class DialoguePlay : MonoBehaviour
     [SerializeField] Animator backGroundAnimator;
 
     [SerializeField] GameObject umbrella;
+
+    [SerializeField] GameObject birds;
     void Start()
     {
         playerAnimator = GetComponent<Animator>();
@@ -49,27 +51,30 @@ public class DialoguePlay : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        ConversationNumber += 1;
-        ConversationManager.Instance.StartConversation(backGroundConversation[ConversationNumber]);
-        Debug.Log(ConversationNumber);
-        Destroy(other.gameObject);    
-        
-        if(backGroundConversation[ConversationNumber].tag == "Therapist")
+        if(other.gameObject.tag == "Therapist" || other.gameObject.tag == "Triggers" || other.gameObject.tag == "Final")
         {
-            ChangeEnvironment();
-            atTherapist = true;
-            umbrella.SetActive(true);
-        }
+            ConversationNumber += 1;
+            ConversationManager.Instance.StartConversation(backGroundConversation[ConversationNumber]);
+            Destroy(other.gameObject);
 
-        else if(backGroundConversation[ConversationNumber].tag == "Final")
-        {
-            FinalSettings();    
+            if(backGroundConversation[ConversationNumber].tag == "Therapist")
+            {
+                ChangeEnvironment();
+                atTherapist = true;
+                umbrella.SetActive(true);
+                umbrella.transform.position = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
+            }
+
+            else if(backGroundConversation[ConversationNumber].tag == "Final")
+            {
+                FinalSettings();    
+            }
         }
     }
 
     void ChangeEnvironment()  // this is to change the color of the dialogue text and panel when player talks to therapist
     {
-        Debug.Log("Change Color");
+        //Debug.Log("Change Color");
         ConversationManager.Instance.DialogueText.color = DialogueTextColor;
         ConversationManager.Instance.DialogueBackground.color = DialogueBoxColor;
         rainControl.RainScript.RainIntensity -=  rainIntensityreduce; // Control rain after meeting therapist
@@ -82,23 +87,19 @@ public class DialoguePlay : MonoBehaviour
 
     void FinalSettings()
     {
-        Debug.Log("Final Settings");
+        //Debug.Log("Final Settings");
         ConversationManager.Instance.DialogueText.color = DialogueTextColor;
         ConversationManager.Instance.DialogueBackground.color = DialogueBoxColor;
         rainControl.RainScript.RainIntensity =  0; // Control rain after meeting therapist
         StartCoroutine(BackgroundLight());
         StartCoroutine(CharacterLight());
         //BackgroundLighter();
-        //StartCoroutine(SunUp());
         backgroundChangingSpeed += 0.1f;
         playerScript.enabled = false;
         playerAnimator.SetBool("isWalking", false);
         playerAnimator.SetBool("isSadWalking", false);
-        //playerAnimator.SetBool("Final",true);
         Music.GetComponent<AudioSource>().enabled = true;
-
         StartCoroutine(WaitThenRestart());
-       //Player Animator sits down and disable movemen
     }
 
     void BackgroundLighter()
@@ -124,16 +125,18 @@ public class DialoguePlay : MonoBehaviour
             yield return new WaitForSeconds(2f);
         }
         RestartButton.SetActive(true);
+        playerAnimator.SetBool("Final",true);
+        StartCoroutine(Birds());
     }
 
-    /* IEnumerator SunUp()
+    IEnumerator Birds()
     {
-        for (float i = Sun.transform.position.y; i <= 20f; i += 0.1f)
+        for (float i = birds.transform.position.x; i >= 224f; i -= 0.1f)
         {
-            Sun.transform.position = new Vector3(Sun.transform.position.x, i, Sun.transform.position.z);
-            yield return new WaitForSeconds(0.1f);
+            birds.transform.position = new Vector3(i, birds.transform.position.y, birds.transform.position.z);
+            yield return new WaitForSeconds(0.2f);
         }
-    } */
+    }
 
     IEnumerator BackgroundLight()
     {

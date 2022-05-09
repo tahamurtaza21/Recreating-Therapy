@@ -16,7 +16,10 @@ public class Player : MonoBehaviour
     private CapsuleCollider2D bodyCollider; 
     DialoguePlay mydialoguePlay;
 
+    //BoxCollider2D myFeet;
+
     bool UmbrellaUsing = false;
+    bool flipped;
 
     [SerializeField] GameObject umbrella;
 
@@ -31,6 +34,7 @@ public class Player : MonoBehaviour
         mydialoguePlay = GetComponent<DialoguePlay>(); 
         playerGravityAtStart = myrigidbody2D.gravityScale; 
         bodyCollider = GetComponent<CapsuleCollider2D>();
+        //myFeet = GetComponent<BoxCollider2D>();
     }
 
     void Update()
@@ -51,10 +55,10 @@ public class Player : MonoBehaviour
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myrigidbody2D.velocity.x) > Mathf.Epsilon;
 
-        umbrella.transform.position = new Vector3
+        /* umbrella.transform.position = new Vector3
         (this.transform.position.x + 0.1f,
         this.transform.position.y + 0.1f,
-        this.transform.position.z);
+        this.transform.position.z); */
 
         if(UmbrellaUsing == true && playerHasHorizontalSpeed)
         {
@@ -90,7 +94,7 @@ public class Player : MonoBehaviour
         if(!bodyCollider.IsTouchingLayers(LayerMask.GetMask("Climbing"))) 
         {
             myrigidbody2D.gravityScale = playerGravityAtStart;
-            //playerAnimator.SetBool("isClimbing", false);
+            playerAnimator.SetBool("isClimbing", false);
             //umbrella.SetActive(true);
             return;
         }
@@ -100,8 +104,8 @@ public class Player : MonoBehaviour
         myrigidbody2D.velocity = climbvelocity;
         
         bool playerHasVerticalSpeed = Mathf.Abs(myrigidbody2D.velocity.y) > Mathf.Epsilon;
-        //playerAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
-        //umbrella.SetActive(false);
+        playerAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
+        
     }
 
     void OnMove(InputValue value)
@@ -115,31 +119,56 @@ public class Player : MonoBehaviour
         if(mydialoguePlay.atTherapist == true)
         {
             UmbrellaUsing = true;
+            umbrellaAnimator.SetBool("isPressingDown", true);
+            moveSpeed = 3.5f;
+            if(flipped == true)
+            {
+                umbrella.transform.position = new Vector3(transform.position.x - 0.75f, transform.position.y + 1.8f, 0f);
+            }
+            else
+            {
+                umbrella.transform.position = new Vector3(transform.position.x + 0.75f, transform.position.y + 1.8f, 0f);
+            }
+            /* UmbrellaUsing = true;
             Debug.Log("therapist");
             Debug.Log(UmbrellaUsing);
             umbrellaAnimator.SetBool("isPressingDown", true);
-            //umbrella.SetActive(true);
-            moveSpeed = 3f;
+            umbrella.SetActive(true);
+            moveSpeed = 3.5f;
             Debug.Log(transform.position);
-            Debug.Log(umbrella.transform.position);
+            Debug.Log(umbrella.transform.position); */
         }
     }
     void OnUmbrellaLetGo()
     {
         UmbrellaUsing = false;
         umbrellaAnimator.SetBool("isPressingDown", false);
-        Debug.Log(UmbrellaUsing);
+        //Debug.Log(UmbrellaUsing);
         //umbrella.SetActive(false);
-        moveSpeed = 1.5f;
+        if(flipped == true)
+        {
+            umbrella.transform.position = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
+        }
+        else
+        {
+            umbrella.transform.position = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
+        }
+        
+        moveSpeed = 2f;
     }
 
     void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myrigidbody2D.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed)
+        if (playerHasHorizontalSpeed) // if moving right
         {
+            flipped = false;
             transform.localScale = new Vector2(Mathf.Sign(myrigidbody2D.velocity.x), 1f);
+        }
+        else
+        {
+            flipped = true;
         }
     }
 }
