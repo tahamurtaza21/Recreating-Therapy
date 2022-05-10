@@ -5,7 +5,7 @@ using DialogueEditor;
 
 public class InputManager : MonoBehaviour
 {
-    void Update()
+    /*void Update()
     {
         if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
@@ -14,5 +14,5 @@ public class InputManager : MonoBehaviour
                 ConversationManager.Instance.PressSelectedOption();
             }
         }
-    }
+    } */
 }

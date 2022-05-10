@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
+using DialogueEditor;
 
 public class Player : MonoBehaviour
 {
@@ -19,8 +20,6 @@ public class Player : MonoBehaviour
     //BoxCollider2D myFeet;
 
     bool UmbrellaUsing = false;
-    bool flipped;
-
     [SerializeField] GameObject umbrella;
 
     float playerGravityAtStart;
@@ -114,6 +113,14 @@ public class Player : MonoBehaviour
         //Debug.Log(moveInput);
     }
 
+    void OnNextConversation(InputValue value)
+    {
+        if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        {
+            ConversationManager.Instance.PressSelectedOption();
+        }
+    }
+
     void OnUmbrellaPress()
     {
         if(mydialoguePlay.atTherapist == true)
@@ -121,15 +128,16 @@ public class Player : MonoBehaviour
             UmbrellaUsing = true;
             umbrellaAnimator.SetBool("isPressingDown", true);
             moveSpeed = 3.5f;
-            if(flipped == true)
-            {
-                umbrella.transform.position = new Vector3(transform.position.x - 0.75f, transform.position.y + 1.8f, 0f);
-            }
-            else
+
+            if(transform.localScale.x > Mathf.Epsilon)
             {
                 umbrella.transform.position = new Vector3(transform.position.x + 0.75f, transform.position.y + 1.8f, 0f);
             }
-            /* UmbrellaUsing = true;
+            else if(transform.localScale.x < Mathf.Epsilon)
+            {
+                umbrella.transform.position = new Vector3(transform.position.x - 0.75f, transform.position.y + 1.8f, 0f);
+            }
+            /*UmbrellaUsing = true;
             Debug.Log("therapist");
             Debug.Log(UmbrellaUsing);
             umbrellaAnimator.SetBool("isPressingDown", true);
@@ -145,15 +153,14 @@ public class Player : MonoBehaviour
         umbrellaAnimator.SetBool("isPressingDown", false);
         //Debug.Log(UmbrellaUsing);
         //umbrella.SetActive(false);
-        if(flipped == true)
+        if(transform.localScale.x > Mathf.Epsilon)
         {
             umbrella.transform.position = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
         }
-        else
+        else if(transform.localScale.x < Mathf.Epsilon)
         {
             umbrella.transform.position = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
         }
-        
         moveSpeed = 2f;
     }
 
@@ -161,14 +168,15 @@ public class Player : MonoBehaviour
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myrigidbody2D.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed) // if moving right
-        {
-            flipped = false;
+        if (playerHasHorizontalSpeed)
+        {   
             transform.localScale = new Vector2(Mathf.Sign(myrigidbody2D.velocity.x), 1f);
         }
-        else
-        {
-            flipped = true;
-        }
+    }
+
+    IEnumerator Debug2()
+    {
+
+        yield return new WaitForSeconds(2f);
     }
 }

@@ -36,6 +36,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "NextConversation",
+                    "type": "Button",
+                    "id": "f56bc31f-ec80-4c5d-9bb4-a46f5da1eb4d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -223,6 +231,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "UmbrellaLetGo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "050c9cf9-7488-49ae-ba3b-f2c244927459",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "NextConversation",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

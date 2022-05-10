@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_text: "Use left and right arrow keys to move left and right. Press Enter or click
     on the 'Continue' button when dialogue ends to move to the next dialogue. \n\nPlay
     the game slowly. Do not rush through it and read every dialogue. Absorbing the
-    dialogue is really important to the game."
+    dialogue is really important to the game. Headphones are recommended!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 709f9156c2905be4fa8f6cf1f4f8917e, type: 2}
   m_sharedMaterial: {fileID: -5597838660166798473, guid: 709f9156c2905be4fa8f6cf1f4f8917e, type: 2}
