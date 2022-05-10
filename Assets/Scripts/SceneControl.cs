@@ -9,6 +9,7 @@ public class SceneControl : MonoBehaviour
     [SerializeField] GameObject GameName;
     [SerializeField] GameObject PlayButton;
     [SerializeField] GameObject InstructionButton;
+    [SerializeField] GameObject ExitButton;
     [SerializeField] GameObject Instructions;
     [SerializeField] GameObject BackButton;
 
@@ -17,6 +18,7 @@ public class SceneControl : MonoBehaviour
         GameName.SetActive(true);
         PlayButton.SetActive(true);
         InstructionButton.SetActive(true);
+        ExitButton.SetActive(true);
         Instructions.SetActive(false);
         BackButton.SetActive(false);
     }
@@ -32,6 +34,7 @@ public class SceneControl : MonoBehaviour
         GameName.SetActive(false);
         PlayButton.SetActive(false);
         InstructionButton.SetActive(false);
+        ExitButton.SetActive(false);
         Instructions.SetActive(true);
         BackButton.SetActive(true);
     }
@@ -41,7 +44,13 @@ public class SceneControl : MonoBehaviour
         GameName.SetActive(true);
         PlayButton.SetActive(true);
         InstructionButton.SetActive(true);
+        ExitButton.SetActive(true);
         Instructions.SetActive(false);
         BackButton.SetActive(false);
+    }
+
+    public void LeaveGame()
+    {
+        Application.Quit();
     }
 }
