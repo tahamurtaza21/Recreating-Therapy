@@ -90,10 +90,13 @@ public class Player : MonoBehaviour
     }
     void Climb()
     {
+        BoxCollider2D boxCollider = umbrella.GetComponent<BoxCollider2D>();
+
         if(!bodyCollider.IsTouchingLayers(LayerMask.GetMask("Climbing"))) 
         {
             myrigidbody2D.gravityScale = playerGravityAtStart;
             playerAnimator.SetBool("isClimbing", false);
+            boxCollider.enabled = true;
             //umbrella.SetActive(true);
             return;
         }
@@ -101,6 +104,8 @@ public class Player : MonoBehaviour
         myrigidbody2D.gravityScale = 0f;
         Vector2 climbvelocity = new Vector2(myrigidbody2D.velocity.x, moveInput.y * moveSpeed);
         myrigidbody2D.velocity = climbvelocity;
+        
+        boxCollider.enabled = false;
         
         bool playerHasVerticalSpeed = Mathf.Abs(myrigidbody2D.velocity.y) > Mathf.Epsilon;
         playerAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
@@ -113,7 +118,7 @@ public class Player : MonoBehaviour
         //Debug.Log(moveInput);
     }
 
-    void OnNextConversation(InputValue value)
+    void OnNextConversation()
     {
         if(ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
@@ -172,11 +177,5 @@ public class Player : MonoBehaviour
         {   
             transform.localScale = new Vector2(Mathf.Sign(myrigidbody2D.velocity.x), 1f);
         }
-    }
-
-    IEnumerator Debug2()
-    {
-
-        yield return new WaitForSeconds(2f);
     }
 }

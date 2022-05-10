@@ -7,6 +7,7 @@ TagManager:
   - Therapist
   - Final
   - Triggers
+  - Start
   layers:
   - Default
   - TransparentFX
@@ -47,9 +48,6 @@ TagManager:
   - name: Platform
     uniqueID: 1886863295
     locked: 0
-  - name: Player
-    uniqueID: 3639631809
-    locked: 0
   - name: Water
     uniqueID: 2319329859
     locked: 0
@@ -61,4 +59,7 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 231337969
+    locked: 0
+  - name: Player
+    uniqueID: 3639631809
     locked: 0

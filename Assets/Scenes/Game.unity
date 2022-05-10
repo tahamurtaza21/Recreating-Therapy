@@ -441,7 +441,7 @@ SpriteShapeRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1048702361
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Color: {r: 0.5, g: 0.48773587, b: 0.48773587, a: 1}
   m_MaskInteraction: 0
@@ -569,7 +569,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141215801}
   m_LocalRotation: {x: 0, y: 0, z: -0.5233911, w: 0.85209256}
-  m_LocalPosition: {x: 164.43, y: 5.8, z: 0}
+  m_LocalPosition: {x: 165.31, y: 4.94, z: 0}
   m_LocalScale: {x: 2, y: 5, z: 1}
   m_Children:
   - {fileID: 1203236064}
@@ -832,7 +832,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7729588048284540171, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
@@ -901,7 +901,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6264799656018598723, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
@@ -980,17 +980,17 @@ MonoBehaviour:
   m_YDamping: 4.7
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.371
-  m_ScreenY: 0.565
+  m_ScreenX: 0.394
+  m_ScreenY: 0.578
   m_CameraDistance: 4
   m_DeadZoneWidth: 0.202
-  m_DeadZoneHeight: 0.452
+  m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.622
-  m_SoftZoneHeight: 0.452
-  m_BiasX: 0.032000035
-  m_BiasY: 0
+  m_SoftZoneWidth: 0.485
+  m_SoftZoneHeight: 0.934
+  m_BiasX: 0.06700005
+  m_BiasY: 0.5
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
@@ -1071,7 +1071,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -8993896104453487495, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
@@ -1281,7 +1281,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.4}
+  m_Offset: {x: 0, y: 0.46}
   m_EdgeRadius: 0
   m_Points:
   - {x: -31.168438, y: 22.49836}
@@ -1807,9 +1807,9 @@ MonoBehaviour:
   m_WorldSpaceUV: 0
   m_CornerAngleThreshold: 20.1
   m_ColliderDetail: 16
-  m_ColliderOffset: 0.134
+  m_ColliderOffset: -0.5
   m_UpdateCollider: 1
-  m_OptimizeCollider: 0
+  m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
   m_EnableTangents: 0
   m_GeometryCached: 0
@@ -2121,7 +2121,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.2908535, y: 0.1429112}
+  m_Offset: {x: 0.2908535, y: 0.18}
   m_Size: {x: 1.3365746, y: 3.5299296}
   m_Direction: 0
 --- !u!212 &430874701
@@ -2163,7 +2163,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -655335487
-  m_SortingLayer: 2
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_Sprite: {fileID: -7556735888184182882, guid: 148963fc39ab92046acc4d2bac06b631, type: 3}
   m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
@@ -2184,7 +2184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430874698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.33, y: -4.04, z: 0}
+  m_LocalPosition: {x: -33.5, y: -4.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1823139708}
@@ -2203,7 +2203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b5e2b55c84cee245b5ac8d915c51633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 2
   umbrella: {fileID: 1823139707}
 --- !u!114 &430874704
 MonoBehaviour:
@@ -2232,7 +2232,7 @@ MonoBehaviour:
   - {fileID: 102665578}
   DialogueBoxColor:
     serializedVersion: 2
-    rgba: 16752960
+    rgba: 10772505
   DialogueTextColor:
     serializedVersion: 2
     rgba: 16777215
@@ -2241,7 +2241,6 @@ MonoBehaviour:
   platform: {fileID: 346379349}
   water: {fileID: 0}
   atTherapist: 0
-  waveIntensityreduce: 0.2
   rainIntensityreduce: 0.1
   lightingBackgroundvalue: 0.1
   backgroundChangingSpeed: 0.2
@@ -2366,7 +2365,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0.09784202, b: 0.4528302, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2779,7 +2778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.251333, y: -3.26, z: -4}
+  m_LocalPosition: {x: -29.911999, y: -3.6639998, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1741648706}
@@ -3210,7 +3209,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1048702361
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 6264799656018598723, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4133,7 +4132,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3144413071091545408, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.254717, g: 0.25327522, b: 0.25327522, a: 1}
@@ -4202,7 +4201,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -8993896104453487495, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
@@ -4364,7 +4363,7 @@ GameObject:
   - component: {fileID: 1048640465}
   m_Layer: 0
   m_Name: Therapist
-  m_TagString: Therapist
+  m_TagString: Start
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4397,15 +4396,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":135,"yPos":53},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
-    Ahmed. Please don''t drop me.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.425},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":133,"yPos":143},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    hell? You can speak? Or is this just a fever dream?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AHMED","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.397},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":253,"yPos":283},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Nope,
-    I''m perfectly real. I do understand your reaction though. ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":183,"yPos":491},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Damn,
-    thanks for coming. This thunderstorm isn''t really being quiet. ","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AHMED","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":556,"yPos":181},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":-65,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
+    Ahmed. Please don''t drop me.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.425},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":-67,"yPos":112},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    hell? You can speak? Or is this just a fever dream?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AHMED","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.397},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":53,"yPos":252},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Nope,
+    I''m perfectly real. I do understand your reaction though. ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":-17,"yPos":460},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Damn,
+    thanks for coming. This thunderstorm isn''t really being quiet. ","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AHMED","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":356,"yPos":150},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
     very welcome. It''s so important to have the help you require at the right time.
-    ","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":743,"yPos":392},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"By
-    the way, you can use the left mouse button to use me to protect yourself from
-    the rain and move faster!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    ","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":543,"yPos":361},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"By
+    the way, you can press and hold the left mouse button to use me to protect yourself
+    from the rain and move faster!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"UMBRELLA","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -4638,7 +4637,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -6324627754091675982, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
@@ -5051,16 +5050,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286570883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &1286570885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5249,7 +5256,7 @@ SpriteShapeRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -151388725
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Color: {r: 0.5, g: 0.48773587, b: 0.48773587, a: 1}
   m_MaskInteraction: 0
@@ -5413,7 +5420,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -6778799245045922370, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
@@ -5496,7 +5503,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3144413071091545408, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
@@ -5565,7 +5572,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7729588048284540171, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
@@ -5896,7 +5903,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 231337969
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3144413071091545408, guid: ecc660ec670b66046a6c0c2ca58951fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6148,7 +6155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594030176}
   m_LocalRotation: {x: 0, y: 0, z: -0.5233911, w: 0.85209256}
-  m_LocalPosition: {x: 141.12, y: 5.12, z: 0}
+  m_LocalPosition: {x: 143.03, y: 7, z: 0}
   m_LocalScale: {x: 2, y: 5, z: 1}
   m_Children:
   - {fileID: 1172776680}
@@ -6734,7 +6741,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -655335487
-  m_SortingLayer: 2
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 757fb8fe689307f4d8ee18fd6a068abc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7362,6 +7369,18 @@ PrefabInstance:
       propertyPath: CollisionMask.m_Bits
       value: 720
       objectReference: {fileID: 0}
+    - target: {fileID: 19901972, guid: b046278bb9b6e104790392b566667ba5, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19943526, guid: b046278bb9b6e104790392b566667ba5, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19962092, guid: b046278bb9b6e104790392b566667ba5, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b046278bb9b6e104790392b566667ba5, type: 3}
 --- !u!114 &1932946737 stripped
@@ -7521,6 +7540,10 @@ PrefabInstance:
     - target: {fileID: 3900108755062758285, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_Name
       value: ConversationManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755196472086, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: AllowMouseInteraction
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_Pivot.x

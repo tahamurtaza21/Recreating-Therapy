@@ -214,17 +214,6 @@
                 },
                 {
                     "name": "",
-                    "id": "a530c5cc-48ef-4d62-baa0-4ff82de27232",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "UmbrellaPress",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "daf2254d-cbb8-489e-9187-1842ac2a4ddd",
                     "path": "<Mouse>/leftButton",
                     "interactions": "Press(behavior=1)",
@@ -236,11 +225,22 @@
                 },
                 {
                     "name": "",
-                    "id": "050c9cf9-7488-49ae-ba3b-f2c244927459",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "Press",
+                    "id": "445874d6-1c81-4784-bbe6-15a451ea4572",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(pressPoint=0.2)",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "UmbrellaPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c841c34-bc2f-4ab7-9fcf-805e7eb60162",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "NextConversation",
                     "isComposite": false,
                     "isPartOfComposite": false

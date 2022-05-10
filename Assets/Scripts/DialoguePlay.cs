@@ -23,7 +23,6 @@ public class DialoguePlay : MonoBehaviour
     public bool atTherapist = false;
     GameObject Conversation;
 
-    [SerializeField] float waveIntensityreduce = 0.2f;
     [SerializeField] float rainIntensityreduce = 0.1f;
 
     [SerializeField] float lightingBackgroundvalue = 0.07f;
@@ -51,20 +50,25 @@ public class DialoguePlay : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.gameObject.tag == "Therapist" || other.gameObject.tag == "Triggers" || other.gameObject.tag == "Final")
+        if(other.gameObject.tag == "Therapist" || other.gameObject.tag == "Triggers" || other.gameObject.tag == "Final" || other.gameObject.tag == "Start")
         {
             ConversationNumber += 1;
             ConversationManager.Instance.StartConversation(backGroundConversation[ConversationNumber]);
             Destroy(other.gameObject);
 
-            if(backGroundConversation[ConversationNumber].tag == "Therapist")
+            if(backGroundConversation[ConversationNumber].tag == "Start")
             {
                 ChangeEnvironment();
                 atTherapist = true;
+                //Debug.Log("Start Therapy");
                 umbrella.SetActive(true);
                 umbrella.transform.position = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
             }
-
+            else if(backGroundConversation[ConversationNumber].tag == "Therapist")
+            {
+                //Debug.Log("Therapy");
+                ChangeEnvironment();
+            }
             else if(backGroundConversation[ConversationNumber].tag == "Final")
             {
                 FinalSettings();    
@@ -78,7 +82,6 @@ public class DialoguePlay : MonoBehaviour
         ConversationManager.Instance.DialogueText.color = DialogueTextColor;
         ConversationManager.Instance.DialogueBackground.color = DialogueBoxColor;
         rainControl.RainScript.RainIntensity -=  rainIntensityreduce; // Control rain after meeting therapist
-        water.WaveSpeed -= waveIntensityreduce;
         StartCoroutine(BackgroundLight());
         StartCoroutine(CharacterLight());
         //BackgroundLighter();
@@ -99,6 +102,7 @@ public class DialoguePlay : MonoBehaviour
         playerAnimator.SetBool("isWalking", false);
         playerAnimator.SetBool("isSadWalking", false);
         Music.GetComponent<AudioSource>().enabled = true;
+        umbrella.transform.position = new Vector3(transform.position.x - 1.8f, transform.position.y, transform.position.z);
         StartCoroutine(WaitThenRestart());
     }
 
